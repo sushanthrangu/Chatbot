@@ -1,0 +1,39 @@
+Refund Policy — EventHub (v1.0, effective Jan 1, 2025)
+
+Summary
+- 100% refund up to 14 days before the event
+- 50% refund from 13 to 7 days before the event
+- No refunds within 6 days of the event
+- Name transfers allowed until 24 hours before the event
+- Non-refundable items: processing fees, add-on workshops once attended
+
+Details
+1) Eligibility
+   - Refunds apply only to tickets purchased through EventHub or official partners.
+   - Group bookings are treated as a single order unless split at purchase time.
+
+2) Deadlines
+   - T−14d to event start: 100% refund (excludes processing fees).
+   - T−13d to T−7d: 50% refund.
+   - T−6d to event start: no refund.
+
+3) Exceptions
+   - Event cancellation or date change > 30 days: 100% refund including fees.
+   - Verified medical emergency: case-by-case review (documentation required within 7 days).
+   - Severe weather forcing venue closure: full refund or credit.
+
+4) Fees & Credits
+   - Processing fees are non-refundable except if EventHub cancels.
+   - Refunds are issued to the original payment method within 5–10 business days.
+   - Store credit valid 12 months, single-use, non-transferable.
+
+5) Transfers & Resale
+   - Name transfer permitted until 24h before event at no cost via My Tickets → Transfer.
+   - Resale must use official resale link to preserve ticket validity.
+
+6) How to Request
+   - Go to My Tickets → Select Order → Request Refund.
+   - Or email support@eventhub.example with Order ID, attendee name, and reason.
+
+7) Contact
+   - Support hours: Mon–Fri 9am–6pm ET, Sat 10am–2pm ET

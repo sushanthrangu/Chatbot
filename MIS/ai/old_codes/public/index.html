@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Screen -->
+    <div id="main-screen" class="screen">
+        <h1>3D Tic-Tac-Toe</h1>
+        <button id="easy-btn">EASY</button>
+        <button id="difficult-btn">DIFFICULT</button>
+        <button id="insane-btn">INSANE</button>
+        <button id="rules-btn">RULES</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen hidden">
+        <h1>PLAY</h1>
+        <div id="game-board"></div>
+        <button id="reset-btn">RESET</button>
+        <button id="game-rules-btn">RULES</button>
+    </div>
+
+    <!-- Rules Popup -->
+    <div id="rules-popup" class="popup hidden">
+        <h2>Game Rules</h2>
+        <p>1. The game is played on a 4x4x4 grid.</p>
+        <p>2. Players take turns placing their symbols (X or O).</p>
+        <p>3. The first player to get 4 in a row (row, column, layer, or diagonal) wins.</p>
+        <button id="close-rules-btn">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

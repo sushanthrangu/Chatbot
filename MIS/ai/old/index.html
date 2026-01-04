@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Menu Screen -->
+    <div id="main-menu" class="screen active">
+        <div class="title-container">
+            <h1>3D TIC-TAC-TOE</h1>
+            <div class="subtitle">4×4×4 EDITION</div>
+        </div>
+        <div class="menu-options">
+            <button id="singleplayer-btn" class="menu-btn glow-on-hover">
+                <span>SINGLE PLAYER</span>
+            </button>
+            <button id="multiplayer-btn" class="menu-btn glow-on-hover">
+                <span>MULTI PLAYER</span>
+            </button>
+            <button id="rules-btn" class="menu-btn glow-on-hover">
+                <span>HOW TO PLAY</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Difficulty Selection Screen -->
+    <div id="difficulty-menu" class="screen">
+        <div class="title-container">
+            <h1>SELECT DIFFICULTY</h1>
+            <div class="subtitle">VS COMPUTER</div>
+        </div>
+        <div class="menu-options">
+            <button id="easy-btn" class="difficulty-btn glow-on-hover">
+                <span>EASY</span>
+                <div class="difficulty-desc">Good for beginners</div>
+            </button>
+            <button id="difficult-btn" class="difficulty-btn glow-on-hover">
+                <span>DIFFICULT</span>
+                <div class="difficulty-desc">Challenging AI</div>
+            </button>
+            <button id="insane-btn" class="difficulty-btn glow-on-hover">
+                <span>INSANE</span>
+                <div class="difficulty-desc">Nearly unbeatable</div>
+            </button>
+            <button id="back-btn" class="back-btn">
+                <span>← BACK</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+        <div class="game-header">
+            <div class="player-turn">
+                <div id="turn-indicator" class="x-turn">PLAYER <span>X</span> TURN</div>
+            </div>
+            <div class="game-controls">
+                <button id="reset-btn" class="control-btn">
+                    <span>↻ RESTART</span>
+                </button>
+                <button id="main-menu-btn" class="control-btn">
+                    <span>≡ MENU</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="board-container">
+            <!-- Layer selector -->
+            <div class="layer-selector">
+                <button class="layer-btn active" data-layer="0">LAYER 1</button>
+                <button class="layer-btn" data-layer="1">LAYER 2</button>
+                <button class="layer-btn" data-layer="2">LAYER 3</button>
+                <button class="layer-btn" data-layer="3">LAYER 4</button>
+            </div>
+            
+            <!-- 3D Board (4x4 grid) -->
+            <div class="board-layer active" data-layer="0"></div>
+            <div class="board-layer" data-layer="1"></div>
+            <div class="board-layer" data-layer="2"></div>
+            <div class="board-layer" data-layer="3"></div>
+        </div>
+
+        <!-- Computer thinking indicator -->
+        <div id="thinking-indicator" class="thinking-container">
+            <div class="thinking-text">COMPUTER THINKING</div>
+            <div class="thinking-dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Over Modal -->
+    <div id="gameover-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="gameover-title">PLAYER X WINS!</h2>
+            <div id="gameover-subtitle">3D Diagonal Victory</div>
+            <div class="modal-buttons">
+                <button id="play-again-btn" class="modal-btn">PLAY AGAIN</button>
+                <button id="return-menu-btn" class="modal-btn">MAIN MENU</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rules Modal -->
+    <div id="rules-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>HOW TO PLAY</h2>
+            <div class="rules-list">
+                <div class="rule-item">
+                    <div class="rule-number">1</div>
+                    <p>The game is played on a <strong>4×4×4 grid</strong> (3D space)</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">2</div>
+                    <p>Players alternate placing <strong>X</strong> and <strong>O</strong> in empty cells</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">3</div>
+                    <p>First to get <strong>4 in a row</strong> wins (horizontal, vertical, or diagonal)</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">4</div>
+                    <p>Lines can go <strong>across layers</strong> (3D diagonals count!)</p>
+                </div>
+                <div class="rule-item">
+                    <div class="rule-number">5</div>
+                    <p>Full board with no winner = <strong>Tie game</strong></p>
+                </div>
+            </div>
+            <button id="close-rules-btn" class="modal-btn">GOT IT!</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

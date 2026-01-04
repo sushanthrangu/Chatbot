@@ -1,0 +1,39 @@
+Event Handbook — Organizer & Attendee Guide (v1.0)
+
+1) Registration & Tickets
+- Sales channels: EventHub web, mobile app, official partner embeds.
+- Ticket types: General Admission, VIP, Student, Group (min 4), Early-bird.
+- Limits: 6 tickets per customer unless whitelisted by organizer.
+- Anti-fraud: device and payment risk checks; suspicious orders placed on manual review.
+
+2) RSVP & Check-in
+- RSVP holds do not guarantee entry without completed payment.
+- Check-in methods: QR scan, lookup by email/last name, manual override with ID.
+- Offline mode: Check-in app caches attendee list; sync when online returns.
+
+3) Payments & Invoicing
+- Supported: cards, wallets, UPI (IN), bank transfer (EU), pay-on-site (limited).
+- Invoices auto-sent; re-download from My Tickets.
+- Refunds follow Refund Policy; partial refunds allowed until T−6d.
+
+4) Cancellations & Changes
+- Postpone: notify all attendees via email/push; ticket remains valid.
+- Cancel: full refund including fees unless caused by third-party venue closure.
+- Lineup changes allowed; disclose prominently on event page.
+
+5) Code of Conduct
+- Zero tolerance for harassment or discrimination.
+- Security may remove attendees breaching conduct; no refunds for removals.
+
+6) Communications
+- Pre-event: schedule reminders at T−7d, T−48h, T−4h.
+- On-site: use push/onsite signage for last-minute changes.
+- Post-event: send thank-you + feedback survey within 48h.
+
+7) Data & Privacy
+- PII stored encrypted; access restricted to authorized staff.
+- Export attendee data via Organizer Dashboard (CSV).
+
+8) Support
+- Hours: Mon–Fri 9am–6pm ET; on-call on event days.
+- Escalations: safety/security issues prioritized over general inquiries.
